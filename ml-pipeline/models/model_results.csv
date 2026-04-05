@@ -1,0 +1,7 @@
+,MAE,RMSE,R2,MAPE
+XGBoost,69.87,90.66,0.62,14.04
+Prophet,74.25,92.71,0.6,16.31
+Random Forest,78.37,103.73,0.5,16.31
+Baseline (7d MA),119.27,152.74,-0.09,26.48
+Baseline (last week),125.04,162.54,-0.24,27.37
+Baseline (mean),143.91,189.82,-0.68,26.21
