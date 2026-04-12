@@ -1,0 +1,35 @@
+# Data Science & ML Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+prophet>=1.1.0
+
+# Model Evaluation & Interpretation
+shap>=0.42.0
+optuna>=3.3.0
+
+# Jupyter & Notebook Tools
+jupyter>=1.0.0
+ipykernel>=6.25.0
+notebook>=7.0.0
+ipywidgets>=8.1.0
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+joblib>=1.3.0
+tqdm>=4.66.0
+
+# Data Quality
+missingno>=0.5.2
+
+# Statistical Analysis
+statsmodels>=0.14.0
+scipy>=1.11.0
