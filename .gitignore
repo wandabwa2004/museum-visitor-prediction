@@ -49,10 +49,10 @@ data/external/*.csv
 !data/processed/.gitkeep
 !data/external/.gitkeep
 
-# Model artifacts
-ml-pipeline/models/*.pkl
-ml-pipeline/models/*.joblib
+# Model artifacts — keep deployed artifacts, ignore only heavy training outputs
 ml-pipeline/models/*.h5
+!ml-pipeline/models/prophet.pkl
+!ml-pipeline/models/random_forest.joblib
 !ml-pipeline/models/.gitkeep
 
 # Logs

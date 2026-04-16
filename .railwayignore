@@ -1,0 +1,6 @@
+backend/venv/
+ml-pipeline/venv/
+notebooks/
+**/__pycache__/
+**/*.pyc
+.git/
