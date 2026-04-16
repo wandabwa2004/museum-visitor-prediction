@@ -6,7 +6,7 @@ import joblib
 import xgboost as xgb
 from pathlib import Path
 
-BASE_DIR   = Path(__file__).resolve().parents[3]
+BASE_DIR   = Path(__file__).resolve().parents[2]
 MODELS_DIR = BASE_DIR / "ml-pipeline" / "models"
 DATA_DIR   = BASE_DIR / "data"
 
